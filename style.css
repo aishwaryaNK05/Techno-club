@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0f2027;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: #111;
+}
+
+nav a {
+    color: #00f2ff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.logo {
+    font-weight: bold;
+    color: #00f2ff;
+}
+
+/* HERO */
+.hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(/background.jpg)
+}
+
+.hero-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: relative;
+    text-align: center;
+    top: 40%;
+}
+
+.hero h1 {
+    font-size: 44px;
+    color: red;
+
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background: #00f2ff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: white;
+}
+
+/* SECTIONS */
+.about, .team, .contact {
+    padding: 50px;
+    text-align: center;
+}
+
+/* TEAM */
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* CONTACT FORM */
+.contact form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact textarea {
+    height: 120px;
+    resize: none;
+}
+
+#formMessage {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* EVENTS PAGE */
+.events-page {
+    padding: 50px;
+    text-align: center;
+}
+
+.events-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.event-card {
+    background: #1c1c1c;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.event-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+}
