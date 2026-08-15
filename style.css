@@ -66,6 +66,8 @@ button {
 button:hover {
     background: white;
 }
+@media (min-width: 480px) {
+}
 
 /* SECTIONS */
 .about, .team, .contact {
